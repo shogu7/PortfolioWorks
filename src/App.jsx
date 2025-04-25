@@ -1,4 +1,8 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Accueil from './pages/Accueil';
+import Projets from './pages/Projets';
+import Navbar from './components/navbar.jsx' 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -7,7 +11,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <BrowserRouter>
+      <Navbar /> {/* Ajout de la Navbar */}
+      
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -17,18 +23,23 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <p>Edit <code>src/App.jsx</code> and save to test HMR</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
+
+      {/* Routes de ton application */}
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/projets" element={<Projets />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
