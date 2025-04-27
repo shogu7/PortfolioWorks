@@ -6,11 +6,17 @@
 }
 
 .logo {
-  height: 6em;
+  height: 8em;
   padding: 1.5em;
+  position: absolute;
+  left: 20%; 
+  top: 50%; 
+  transform: translateY(-50%); 
   will-change: filter;
   transition: filter 300ms;
 }
+
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
