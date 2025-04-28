@@ -1,32 +1,38 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import './warning.css';
 
-
 function AlertDismissible() {
-  const [show, setShow] = useState(true);
+  const [visible, setVisible] = useState(false);
+  const [mounted, setMounted] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setVisible(true), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleClose = () => {
+    setVisible(false);
+    setTimeout(() => setMounted(false), 300);
+  };
+
+  if (!mounted) return null;
 
   return (
-    <>
-      <Alert show={show} variant="success">
-        <Alert.Heading>Alerte!👋 </Alert.Heading>
-        <p>
-        Ce site est actuellement en cours de développement.
-        </p>
-        <p>
-        Certaines fonctionnalités peuvent être incomplètes ou instables. Merci de votre compréhension !
-        </p>
+    <div className={`warning-parent ${visible ? 'show' : 'hide'}`}>
+      <Alert variant="success">
+        <Alert.Heading>Alerte!👋</Alert.Heading>
+        <p>Ce site est actuellement en cours de développement.</p>
+        <p>Certaines fonctionnalités peuvent être incomplètes ou instables. Merci !</p>
         <hr />
         <div className="d-flex justify-content-end">
-          <Button onClick={() => setShow(false)} variant="outline-success">
+          <Button onClick={handleClose} variant="outline-success">
             Close me
           </Button>
         </div>
       </Alert>
-
-      {!show && <Button onClick={() => setShow(true)}>Show Alert</Button>}
-    </>
+    </div>
   );
 }
 

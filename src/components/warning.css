@@ -2,15 +2,18 @@
     background-color: #021b16 !important;
     color: #8de6c0 !important; 
     border: 1px solid #0d3b2e !important;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 20px 0;
+    border-radius: 15px;
+    padding: 12px;
+    margin: auto auto;
+    margin-bottom: auto;
+    bottom: 70%;
+    right: 32%;
   }
   
   .alert-success .alert-heading {
     font-size: 1.5rem;
     color: #8de6c0;
-    margin-top: 0;
+    margin-top: auto;
   }
   
   .alert-success p {
@@ -47,4 +50,28 @@
     border-color: #0d3b2e;
     color: #0d3b2e;
     background-color: rgba(13, 59, 46, 0.05); 
+  }
+
+  .warning-parent {
+    position: fixed;
+    bottom: -100px;
+    right: 20px;
+    width: 500px;
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease-out;
+  }
+  
+  .warning-parent.show {
+    bottom: 20px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .warning-parent.hide {
+    bottom: -100px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.3s ease-in;
   }

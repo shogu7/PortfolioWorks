@@ -1,7 +1,4 @@
-/* navbar.css */
-
-/* Base navbar styling */
-.navbar {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -21,8 +18,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  
-  /* Navbar states */
+
   .navbar-transparent {
     background-color: transparent;
     padding-top: 1rem;
@@ -30,13 +26,12 @@
   }
   
   .navbar-scrolled {
-    background-color: #1a202c; /* bg-gray-900 */
+    background-color: #1a202c;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  
-  /* Logo styling */
+
   .navbar-logo {
     display: flex;
     align-items: center;
@@ -53,20 +48,19 @@
   }
   
   .logo-text-primary.scrolled {
-    color: #63b3ed; /* text-blue-400 */
+    color: #63b3ed;
   }
   
   .logo-text-secondary {
     margin-left: 0.25rem;
     font-size: 1.125rem;
-    color: #90cdf4; /* text-blue-300 */
+    color: #90cdf4;
   }
   
   .logo-text-secondary.scrolled {
-    color: #d1d5db; /* text-gray-300 */
+    color: #d1d5db;
   }
   
-  /* Desktop navigation */
   .desktop-nav {
     display: none;
   }
@@ -80,7 +74,7 @@
   
   .desktop-nav-item {
     margin-left: 2rem;
-    color: #d1d5db; /* text-gray-300 */
+    color: #d1d5db;
     font-weight: 500;
     transition: color 0.2s ease;
     position: relative;
@@ -93,14 +87,13 @@
   .desktop-nav-item:hover {
     color: #fff;
   }
-  
-  /* Underline animation for nav items */
+
   .desktop-nav-item::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #63b3ed; /* bg-blue-400 */
+    background-color: #63b3ed;
     height: 2px;
     width: 0;
     transition: all 0.3s ease;
@@ -109,77 +102,11 @@
   .desktop-nav-item:hover::after {
     width: 100%;
   }
-  
-  /* Contact button styling */
+
   .contact-button {
     padding: 0.3rem 1rem;
     color: #fff;
     border-radius: 0.8rem;
     transition: all 0.2s ease;
     transform-origin: center;
-  }
-  
-  /* Mobile menu button */
-  .mobile-menu-button {
-    display: flex;
-    align-items: center;
-  }
-  
-  @media (min-width: 768px) {
-    .mobile-menu-button {
-      display: none;
-    }
-  }
-  
-  .mobile-menu-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    color: #d1d5db; /* text-gray-300 */
-    cursor: pointer;
-  }
-  
-  .mobile-menu-icon:hover {
-    color: #fff;
-  }
-  
-  /* Mobile menu */
-  .mobile-menu {
-    display: none;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  .mobile-menu.open {
-    display: block;
-  }
-  
-  .mobile-menu-items {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .mobile-nav-item {
-    color: #d1d5db; /* text-gray-300 */
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    transition: color 0.2s ease;
-    margin-bottom: 1rem;
-  }
-  
-  .mobile-nav-item:hover {
-    color: #fff;
-  }
-  
-  .mobile-contact-button {
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: #2563eb; /* bg-blue-600 */
-    color: #fff;
-    border-radius: 0.5rem;
-    transition: background-color 0.2s ease;
-  }
-  
-  .mobile-contact-button:hover {
-    background-color: #1d4ed8; /* bg-blue-700 */
   }
