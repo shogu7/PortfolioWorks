@@ -22,7 +22,6 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar-scrolled' : 'navbar-transparent'}`}>
       <div className="navbar-container">
         <div className="navbar-content">
-          {/* Logo */}
           <div className="navbar-logo">
             <Link to="/" className="navbar-logo-link">
               <span className={`logo-text logo-text-primary ${scrolled ? 'scrolled' : ''}`}>
@@ -34,7 +33,6 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="desktop-nav">
             <Link to="/" className="desktop-nav-item">
               Accueil

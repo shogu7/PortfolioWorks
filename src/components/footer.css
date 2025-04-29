@@ -1,0 +1,157 @@
+.footer {
+margin-top: 15rem;
+width: 99vw;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+z-index: 50;
+background-color: #0a1829;
+padding: 2rem 4rem 4rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+box-sizing: border-box;
+transition: all 0.3s ease;
+}
+
+.footer-content {
+position: relative;
+width: 100%;
+}
+
+.footer-wave {
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.footer-wave svg {
+display: block;
+width: 100%;
+}
+
+.footer-section {
+display: flex;
+justify-content: center;
+}
+
+.social-links {
+display: flex;
+gap: 1.5rem;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.social-icon {
+color: #2fbdf5;
+transition: all 0.3s ease;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.icon-container {
+position: relative;
+width: 3rem;
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.icon-backdrop {
+position: absolute;
+inset: 0;
+background: radial-gradient(circle, rgba(47, 189, 245, 0.3) 0%, rgba(47, 189, 245, 0) 70%);
+transform: scale(0);
+transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.icon-backdrop.active {
+transform: scale(2);
+}
+
+.social-icon svg {
+width: 1.5rem;
+height: 1.5rem;
+position: relative;
+z-index: 2;
+transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover svg {
+transform: translateY(-3px);
+color: white;
+}
+
+.footer-section.links {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 0.5rem;
+margin-top: 1rem;
+}
+
+.footer-link {
+color: #6a8bad;
+text-decoration: none;
+transition: color 0.3s ease, transform 0.3s ease;
+font-size: 0.9rem;
+}
+
+.footer-link:hover {
+color: #2fbdf5;
+transform: translateY(-2px);
+}
+
+.divider {
+color: #6a8bad;
+margin: 0 0.5rem;
+}
+
+.copyright {
+margin-top: 1rem;
+display: flex;
+justify-content: center;
+}
+
+.copyright p {
+color: #4a6785;
+font-size: 0.85rem;
+text-align: center;
+margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-inner {
+        padding: 2rem 1.5rem 3rem;
+    }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .icon-container {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .social-icon svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .footer-section.links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .divider {
+        display: none;
+    }
+}
