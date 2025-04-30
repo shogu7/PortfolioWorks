@@ -114,10 +114,18 @@ transform: translateX(0);
 100% { transform: translateY(-10px); }
 }
 
-.projects-spacing {
+.projects-space {
 margin-top: 160px;
 }
 
 .space-between {
 margin-top: 200px;
+}
+
+.button-space {
+  margin-top: 20px;
+}
+
+.skill-space {
+  margin-top: 160px;
 }

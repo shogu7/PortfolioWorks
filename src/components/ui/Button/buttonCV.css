@@ -1,0 +1,24 @@
+.btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: #121212;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0, 198, 255, 0.5);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 6px 20px rgba(0, 198, 255, 0.7);
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 198, 255, 0.5);
+  }
+  

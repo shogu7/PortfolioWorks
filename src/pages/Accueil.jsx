@@ -1,6 +1,8 @@
 import React from 'react';
-import shoguLogo from '../ressources/shogu_logo.png';
-import Projects from '../components/projects'
+import shoguLogo from '../assets/icons/shogu_logo.png';
+import Projects from '../components/sections/projects'
+import ButtonCV from '../components/ui/Button/buttonCV'
+import Skill from "../components/sections/skill"
 import './Accueil.css';
 import { useState, useEffect } from 'react';
 
@@ -31,10 +33,17 @@ export default function DynamicHeader() {
         <p className="read-the-docs">
         J’aime créer des choses utiles, concrètes, et qui ont du sens pour moi. Peu importe le langage, tant que le projet m’inspire et me pousse à progresser.
         </p>
+      <div className="button-space">
+      <ButtonCV />
+      </div>
       </div>
     </div>
-  <div className="projects-spacing">
+    
+  <div className="projects-space">
     <Projects />
+  </div>
+  <div className="skill-space">
+  <Skill />
   </div>
   </>
   );

@@ -9,12 +9,29 @@ display: flex;
 flex-direction: column;
 }
 
-main {
-flex: 1;
-}
-
 body {
 display: flex;
 flex-direction: column;
 min-height: 100vh;
+}
+
+.App {
+position: relative;
+z-index: 1;
+width: 100%;
+}
+
+main, header, footer, .header-container, .presentation-container {
+  position: relative;
+  z-index: 2;
+}
+
+
+#tsparticles {
+  position: fixed !important;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
