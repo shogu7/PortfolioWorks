@@ -1,9 +1,10 @@
 import React from 'react';
+import Fetchproject from '../components/sections/project/fetchproject'
 
 const Projets = () => {
   return (
     <div>
-      <h2>Voici mes projets !</h2>
+    <Fetchproject />
     </div>
   );
 }

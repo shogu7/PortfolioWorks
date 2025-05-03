@@ -1,23 +1,33 @@
 import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaPython, FaPhp, FaGitAlt, FaLinux } from 'react-icons/fa';
+import { GiDatabase } from 'react-icons/gi'
 import './skill.css';
 
 const SkillsSection = () => {
   const skills = [
-    { name: 'HTML', level: 90 },
-    { name: 'CSS', level: 85 },
-    { name: 'JavaScript', level: 80 },
-
+    { name: 'HTML', icon: <FaHtml5 /> },
+    { name: 'CSS', icon: <FaCss3Alt /> },
+    { name: 'JavaScript', icon: <FaJs /> },
+    { name: 'React', icon: <FaReact /> },
+    { name: 'Java', icon: <FaJava /> },
+    { name: 'Python', icon: <FaPython /> },
+    { name: 'PHP', icon: <FaPhp /> },
+    { name: 'MySQL', icon: <GiDatabase /> },
+    { name: 'Ubuntu', icon: <FaLinux /> },
+    { name: 'Git', icon: <FaGitAlt /> },
   ];
+
 
   return (
     <section className="skills-section">
-      <h2>My Skills</h2>
+      <h2>Technologies</h2>
       <div className="skills-grid">
         {skills.map((skill, index) => (
           <div key={index} className="skill-item">
+            <div className="icon">{skill.icon}</div>
             <h3>{skill.name}</h3>
             <div className="progress-bar">
-              <div className="progress" style={{ width: `${skill.level}%` }}></div>
+              <div className="progress"></div>
             </div>
           </div>
         ))}

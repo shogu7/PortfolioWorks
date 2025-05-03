@@ -1,6 +1,6 @@
 .skills-section {
     padding: 60px 20px;
-    /*background-color:#688bff49; maybe */
+    /*background-color:#688bff49; peut etre add */
     text-align: center;
   }
   
@@ -54,3 +54,11 @@
     font-weight: bold;
   }
   
+  .icon {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }

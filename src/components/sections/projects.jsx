@@ -58,7 +58,7 @@ const Projects = () => {
   if (loading) {
     return (
       <div className="projects-container">
-        <h2 className="projects-title">My Pinned Projects</h2>
+        <h2 className="projects-title">Mes Projects épinglés</h2>
         <div className="loading-animation">
           <div className="loading-circle"></div>
         </div>
@@ -68,7 +68,7 @@ const Projects = () => {
   if (error) {
     return (
       <div className="projects-container">
-        <h2 className="projects-title">My Pinned Projects</h2>
+        <h2 className="projects-title">Mes Projects épinglés</h2>
         <div className="error-message">
           <p>{error}</p>
         </div>
@@ -80,7 +80,7 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
-      <h2 className="projects-title">My Pinned Projects</h2>
+      <h2 className="projects-title">Mes Projects épinglés</h2>
       <div className="carousel-container">
         <div className="carousel-track">
           {displayProjects.map((project, i) => (
