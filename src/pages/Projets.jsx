@@ -4,7 +4,7 @@ import Fetchproject from '../components/sections/project/fetchproject'
 const Projets = () => {
   return (
     <div>
-    <Fetchproject />
+      <Fetchproject />
     </div>
   );
 }

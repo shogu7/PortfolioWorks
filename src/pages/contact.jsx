@@ -4,7 +4,7 @@ import HandleContact from '../components/sections/contact/HandleContact'
 const Contact = () => {
   return (
     <div>
-        <HandleContact />
+      <HandleContact />
     </div>
   );
 }
