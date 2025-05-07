@@ -11,17 +11,11 @@ export default function DynamicHeader() {
 
   useEffect(() => {
     setIsVisible(true);
-    
-    const glowInterval = setInterval(() => {
-      setGlowIntensity(prev => (prev + 1) % 100);
-    }, 50);
-    
-    return () => clearInterval(glowInterval);
   }, []);
 
   return (
   <>
-  <div class="space-between"></div>
+  <div className="space-between"></div>
     <div className="header-container">
       <a href="https://github.com/shogu7" target="_blank">
         <img src={shoguLogo} className="logo" alt="Shogu's Logo" />

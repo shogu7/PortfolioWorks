@@ -4,7 +4,6 @@ import Particles from "react-tsparticles";
 
 const ParticlesBackground = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log("Initializing particles with slim version...");
     await loadSlim(engine);
   }, []);
 
