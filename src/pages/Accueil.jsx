@@ -1,8 +1,8 @@
 import React from 'react';
 import shoguLogo from '../assets/icons/shogu_logo.png';
-import Projects from '../components/sections/projects'
+import Projects from '../components/sections/accueil/projects'
 import ButtonCV from '../components/ui/Button/buttonCV'
-import Skill from "../components/sections/skill"
+import Skill from "../components/sections/accueil/skill"
 import './Accueil.css';
 import { useState, useEffect } from 'react';
 

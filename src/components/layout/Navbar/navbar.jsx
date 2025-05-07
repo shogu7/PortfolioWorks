@@ -40,7 +40,7 @@ export default function Navbar() {
             <Link to="/projets" className="desktop-nav-item">
               Projets
             </Link>
-            <a href="/#contact" className="desktop-nav-item">
+            <a href="/contact" className="desktop-nav-item">
               Contact
             </a>
           </div>

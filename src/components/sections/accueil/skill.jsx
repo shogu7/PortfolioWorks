@@ -21,6 +21,7 @@ const SkillsSection = () => {
   return (
     <section className="skills-section">
       <h2>Technologies</h2>
+      <h1 className="desc-tech">Découvrez ci-dessous les langages et technologies que j’utilise régulièrement ou avec lesquels j’ai acquis une première expérience à travers mes projets.</h1>
       <div className="skills-grid">
         {skills.map((skill, index) => (
           <div key={index} className="skill-item">
