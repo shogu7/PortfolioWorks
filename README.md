@@ -1,12 +1,33 @@
-# React + Vite
+# Portfolio Shogu's
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio to showcase my projects, skills, and background as a developer.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React, Vite, JavaScript, HTML, CSS
+- **APIs / Libraries**:
+  - [GitHub API](https://docs.github.com/en/rest)
+  - [tsparticles-slim](https://github.com/matteobruni/tsparticles)
+  - [lucide-react](https://lucide.dev/)
+  - [emailjs-com](https://www.emailjs.com/)
+  - [react-bootstrap/Alert](https://react-bootstrap.github.io/docs/components/alerts)
+  - [Framer Motion](https://www.framer.com/motion/)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Project showcase with GitHub integration
+- Smooth animations and particle background
+- Fully responsive design
+- Contact form with live email sending
+- Clean, modern, and minimal UI
+
+## 🎯 Purpose
+
+This portfolio was built as a personal project to:
+- Present myself to recruiters and potential collaborators
+- Display a selection of my development projects
+- Practice modern web development tools and UI
+
+## 🌍 Live Demo
+
+🔗 [View the live site](https://shoguportfolio.netlify.app/)
