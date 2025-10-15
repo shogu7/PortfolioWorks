@@ -283,28 +283,67 @@
   border-radius: var(--border-radius);
   cursor: pointer;
 }
-/* buton part */
+
+/* bouton part */
 .btn {
-  flex: 1;
-  text-align: center;
+  flex: 1 1 auto;
+  min-width: 0;               
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 8px 12px;
   border-radius: var(--border-radius);
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
-  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  transition: background 180ms ease, transform 160ms ease, box-shadow 160ms ease;
 }
 
 .btn-github {
   background: #3182ce;
   color: var(--text-primary);
 }
-
 .btn-github:hover { background: #2b6cb0; }
 
 .btn-demo {
   background: var(--bg-dark);
   color: var(--text-primary);
 }
-
 .btn-demo:hover { background: #4a5568; }
+
+.btn-info {
+  background: #083b71;
+  color: var(--text-primary);
+  max-width: 180px; 
+  flex: 0 1 180px;     
+}
+.btn-info:hover { background: #0652a5; }
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(11,46,99,0.08);
+}
+.btn:active { transform: translateY(-2px) scale(0.998); }
+
+
+.btn:focus {
+  outline: none;
+}
+.btn:focus-visible {
+  box-shadow: 0 0 0 4px rgba(43,140,255,0.12);
+}
+
+/* responsive part */
+@media (max-width: 420px) {
+  .btn { font-size: 0.85rem; padding: 6px 10px; }
+  .btn-info { max-width: 140px; flex: 0 1 140px; }
+}
+

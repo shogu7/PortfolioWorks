@@ -238,7 +238,7 @@ export default function ProjectsPage() {
                       Mis à jour: {formatDate(project.updatedAt)}
                     </div>
                   </div>
-                  // buttons GitHub, Demo, More Info
+                  {/* buttons GitHub, Demo, More Info */}
                   <div className="action-buttons">
                     <a
                       href={project.githubUrl}
@@ -248,6 +248,9 @@ export default function ProjectsPage() {
                     >
                       Voir sur GitHub
                     </a>
+                     <Link to={`/projets/${project.title}`} className="btn btn-info">
+                      Plus d'informations
+                    </Link>
                     {project.demoUrl && (
                       <a
                         href={project.demoUrl}
@@ -258,16 +261,13 @@ export default function ProjectsPage() {
                         Démo Live
                       </a>
                     )}
-                    <Link to={`/projets/${project.title}`} className="btn btn-demo">
-                      Plus d'informations
-                    </Link>
                   </div>
                 </div>
               </div>
             ))}
           </div>
         )}
-        // if no results
+        {/* if no results */}
         {!loading && !error && filteredProjects.length === 0 && (
           <div className="no-results">
             <p>Aucun projet ne correspond à vos filtres.</p>

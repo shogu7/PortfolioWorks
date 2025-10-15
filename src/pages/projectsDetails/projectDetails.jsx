@@ -53,25 +53,34 @@ function ProjectsDetails() {
       </header>
 
       <section>
-        <img src={project.image} alt={project.title} style={{ maxWidth: "100%" }} />
-        <h2>Description</h2>
+        <img src={project.image} alt={project.title} style={{ maxWidth: "60%" }} />
+        <h2 className="title">Description</h2>
         <p>{project.fullDescription}</p>
       </section>
 
       <section className="tech-lang-section">
-        <h3>Technologies</h3>
-        <ul>
-          {(project.technologies || []).map(t => <li key={t}>{t}</li>)}
+        <h3 className="title">Technologies</h3>
+        <ul className="tags">
+          {(project.technologies || []).map(t => (
+            <li key={t} className="tag" title={t}>
+              {t}
+            </li>
+          ))}
         </ul>
 
-        <h3>Langages</h3>
-        <ul>
-          {(project.languages || []).map(l => <li key={l}>{l}</li>)}
+        <h3 className="title">Langages</h3>
+        <ul className="tags">
+          {(project.languages || []).map(l => (
+            <li key={l} className="tag" title={l}>
+              {l}
+            </li>
+          ))}
         </ul>
       </section>
 
-      <section>
-        {project.liveLink && <a href={project.liveLink} target="_blank" rel="noreferrer">Démo Live</a>}
+      <section>  
+        {project.liveLink ? (<a href={project.liveLink} target="_blank" rel="noreferrer">Démo Live</a> ) : (<a className="no-result">Pas de démo disponible ;-;</a>)}
+
         {project.repo && <a href={project.repo} target="_blank" rel="noreferrer" style={{ marginLeft: 12 }}>Github Page</a>}
       </section>
       <BackButton />

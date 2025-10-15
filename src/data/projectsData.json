@@ -58,5 +58,17 @@
     "date": "2025-03-07",
     "liveLink": "https://github.com/shogu7/soundboard/releases/tag/v1.0",
     "repo": "https://www.youtube.com/watch?v=QOlec9dbkc8"
+  },
+  {
+    "slug": "mastermind-game",
+    "title": "MasterMind Game",
+    "shortDescription": "Jeu de MasterMind en JavaScrip.",
+    "fullDescription": " Simple jeu de mastermind en JavaScript, crée dans le cadre d'une évalution scolaire. Le jeu consiste à deveniner une combinaison de couleurs en un nombre limité d'essaies. Le code est structuré en plusieurs fonctions pour gérer la logique du jeu, la génération de la combinaison secrète. Comme c'est un projet assez simple, je n'ai pas framgmenter le code en plusieurs fichiers, je suis rester assez basique. (Du a la nature du projet, il n'y a pas de README détaillé, mais le code est commenté pour expliquer les différentes parties.)",
+    "languages": ["JavaScript"],
+    "technologies": [],
+    "image": "https://imgs.search.brave.com/RNzRpCSoxYgNjlm6zgyTN_E3cvfmtTeJqmhq2pG4EZ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dG95c3J1cy5jYS9k/dy9pbWFnZS92Mi9C/REZYX1BSRC9vbi9k/ZW1hbmR3YXJlLnN0/YXRpYy8tL1NpdGVz/LXRveXMtbWFzdGVy/LWNhdGFsb2cvZGVm/YXVsdC9kdzI1MDE2/OWUyL2ltYWdlcy9G/NDMzOTk5Rl83Lmpw/Zz9zdz03Njcmc2g9/NzY3JnNtPWZpdA",
+    "date": "2025-10-14",
+    "liveLink": "",
+    "repo": "https://github.com/shogu7/mastermind-game"
   }
 ]

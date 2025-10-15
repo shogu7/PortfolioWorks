@@ -237,3 +237,89 @@ main > footer a:hover {
         text-align: center;
     }
 }
+
+/* CSS for no results message */
+.no-result {
+  color: #888;
+  font-style: italic;
+  display: inline-block;
+  animation: float 1.5s ease-in-out infinite;
+}
+
+.no-result:hover {
+  transform: scale(1.1);
+  cursor: default;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+
+/* tech/lang part */
+
+:root{
+  --accent: #2b8cff;         /* switchin for a dark blue that render better in the interface */
+  --accent-rgb: 43,140,255; 
+  --tag-bg: rgba(var(--accent-rgb), 0.08);
+  --tag-border: rgba(var(--accent-rgb), 0.18);
+}
+
+.tech-lang-section .tags {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-lang-section .tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;          
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1.2rem;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease, color 120ms ease;
+  cursor: default;
+  user-select: none;
+}
+
+.tech-lang-section .tag:hover,
+.tech-lang-section .tag:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  background: var(--accent);
+  color: #fff;
+  outline: none; 
+}
+
+
+.tech-lang-section .tag:focus-visible {
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.18);
+}
+
+@media (max-width: 420px) {
+  .tech-lang-section .tag { padding: 5px 9px; font-size: 0.85rem; }
+}
+
+
+/* make better title for each of them */
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
