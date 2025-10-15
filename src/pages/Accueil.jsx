@@ -3,7 +3,7 @@ import shoguLogo from '../assets/icons/shogu_logo.png';
 import Projects from '../components/sections/accueil/projects'
 import ButtonCV from '../components/ui/Button/buttonCV'
 import Skill from "../components/sections/accueil/skill"
-import './Accueil.css';
+import '../styles/Accueil.css';
 import { useState, useEffect } from 'react';
 
 export default function DynamicHeader() {
