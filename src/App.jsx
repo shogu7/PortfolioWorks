@@ -4,12 +4,14 @@ import Navbar from './components/layout/Navbar/navbar.jsx';
 import Footer from './components/layout/Footer/footer.jsx'
 import ParticlesBackground from './components/effects/particlesbackground.jsx';
 import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './components/utils/ScrollToTop.jsx';
 import './App.css'
 
 function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
     <div className="App">
     <ParticlesBackground />
         <Warning />

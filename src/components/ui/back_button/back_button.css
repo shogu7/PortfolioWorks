@@ -1,0 +1,28 @@
+.back-footer {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--bg-medium);
+  text-align: center;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--accent);
+  color: var(--bg-dark);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(34, 211, 238, 0.15);
+}

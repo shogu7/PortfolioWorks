@@ -283,7 +283,7 @@
   border-radius: var(--border-radius);
   cursor: pointer;
 }
-
+/* buton part */
 .btn {
   flex: 1;
   text-align: center;

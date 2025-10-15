@@ -1,0 +1,62 @@
+[
+    {
+    "slug": "PortfolioWorks",
+    "title": "PortfolioWorks",
+    "shortDescription": "Portfolio interactif présentant mes projets et compétences.",
+    "fullDescription": "PortfolioWorks est un site conçu pour mettre en valeur mes projets personnels et mes compétences techniques. Il permet aux visiteurs, notamment aux recruteurs et entreprises, de découvrir mes projets, avec la possibilité d'explorer en détail chaque projet et d'en apprendre davantage sur mes compétences et mon expérience. C'est mon premier projet en utilisant react vite, j'ai aussi tester pour la première fois un déploiment sur netifly pour l'hébergement (auparavant j'utilisait un VPS, configuré par moi même pour mettre en lignes mes autres projets), j'ai opter mon netlify  car il est gratuit et facile à utiliser. Pour le design, j'ai utilisé des bibliothèques comme react-icons pour les icônes et framer-motion pour les animations. Le code est hébergé sur GitHub pour permettre à tous de voir mes projets !",
+    "languages": ["TypeScript", "Node"],
+    "technologies": ["React", "Express", "MongoDB"],
+    "image": "https://i.postimg.cc/P53WBDcs/Capture-d-e-cran-2025-10-14-a-15-44-37.png", 
+    "date": "2023-11-10",
+    "liveLink": "https://shoguportfolio.netlify.app/",
+    "repo": "https://github.com/shogu7/PortfolioWorks"
+  },
+  {
+    "slug": "todolist-project",
+    "title": "TodoList-Project",
+    "shortDescription": "Mon premier projet en Java : ToDo-List console avec sauvegarde dans fichier.",
+    "fullDescription": "Voici mon premier projet en Java : une application de gestion de tâches (ToDo-List) fonctionnant dans le terminal. Elle permet aux utilisateurs d'ajouter et de supprimer des tâches ainsi que les gestionner (marquer terminée/pause/en cour). Les tâches sont sauvegardées dans un fichier texte pour une persistance des données entre les sessions. (Le README contient des détails sur les fonctionnalités, la structure du code et les améliorations possibles.)",
+    "languages": ["Java"],
+    "technologies": ["Java"],
+    "image": "/images/todolist-project.png",
+    "date": "",
+    "liveLink": "",
+    "repo": "https://github.com/shogu7/TodoList-Project"
+  },
+  {
+    "slug": "snakegame-terminal-interface",
+    "title": "SnakeGame-Terminal-Interface",
+    "shortDescription": "SnakeGame en Java utilisant le terminal comme interface.",
+    "fullDescription": "Un jeu de Snake développé en Java, utilisant le terminal comme interface utilisateur. Le joueur contrôle le serpent avec les touches ZQSD (ou flèches directionnelles) pour manger des pommes et grandir. Le jeu se termine si le serpent se mord la queue. Le code est structuré en plusieurs classes pour gérer le jeu, le serpent, les pommes et l'affichage. (Le README inclut des instructions de compilation et d'exécution.)",
+    "languages": ["Java"],
+    "technologies": ["Java"],
+    "image": "/images/snakegame-terminal-interface.png",
+    "date": "",
+    "liveLink": "",
+    "repo": "https://github.com/shogu7/SnakeGame-Terminal-Interface"
+  },
+  {
+    "slug": "soundboard",
+    "title": "soundboard",
+    "shortDescription": "Soundboard software in Java (ajoute et joue MP3/WAV via microphone virtuel).",
+    "fullDescription": "Ce projet est une application de Soundboard développée en Java. Elle permet aux utilisateurs d'ajouter et de jouer des fichiers audio (MP3/WAV) via un microphone virtuel (VB-CABLE). L'application utilise des bibliothèques Java pour la gestion audio ainsi qu'il alogirthme de conversion de bits pour assurer une qualité/compatibilité optimale. Le logiciel est empaqueté en un exécutable Windows pour une installation faicle. (Le README contient des instructions d'installation et d'utilisation ainsi que beaucoup plus de détails techniques !)",
+    "languages": ["Java"],
+    "technologies": ["Java", "Maven", "Launch4j", "Voicemeeter", "VB-CABLE"],
+    "image": "https://private-user-images.githubusercontent.com/196045674/420342565-11838a73-408e-4ecf-a7b7-4d67169ec1de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjA0NTI1NzIsIm5iZiI6MTc2MDQ1MjI3MiwicGF0aCI6Ii8xOTYwNDU2NzQvNDIwMzQyNTY1LTExODM4YTczLTQwOGUtNGVjZi1hN2I3LTRkNjcxNjllYzFkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxNFQxNDMxMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00Y2Q4NTc2NDQ1YWEwNjU4Y2VkYTcwNDk5NTMzZTVmNjRkOGZiN2FhMjNlMjExYjNmZDE0MDZhNDhlNTJlYTQ1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JMPtStEPDqsfznz9rxXMvmJQef3nNmkI-W6-_C-4Yuo",
+    "date": "2025-03-07",
+    "liveLink": "https://github.com/shogu7/soundboard/releases/tag/v1.0",
+    "repo": "https://github.com/shogu7/soundboard"
+  },
+    {
+    "slug": "IsekaiScan",
+    "title": "IsekaiScan",
+    "shortDescription": "Site Web de lecture de mangas en ligne.",
+    "fullDescription": "IsekaiScan est un site web de lecture de mangas en ligne. Crée de manière dynamique, il permet aux utilisateurs de lire de manière efficace et agréable leurs mangas préférés. J'ai opter pour un mix de beaucoup de PHP et un peu de JavaScript pour le developpement du back-end de mon site. Pour le design je suis rester sur du HTML/CSS avec un peu de Bootstrap. Le site ainsi que la base de donée est hébergé sur un serveur OVH (VPS) que j'ai configuré moi-même de zéro pour apprendre à gérer un serveur web. Le code est disponible sur GitHub pour permettre à tous de voir mes projets ! (PS: le site n'est plus en ligne car j'ai arrêter le projet, mais le code est toujours dispo ainsi qu'une vidéo de présentation du site.)",
+    "languages": ["JavaScript", "PHP", "SQL"],
+    "technologies": ["Bootscrap", "MySQL"],
+    "image": "https://private-user-images.githubusercontent.com/196045674/420342565-11838a73-408e-4ecf-a7b7-4d67169ec1de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjA0NTI1NzIsIm5iZiI6MTc2MDQ1MjI3MiwicGF0aCI6Ii8xOTYwNDU2NzQvNDIwMzQyNTY1LTExODM4YTczLTQwOGUtNGVjZi1hN2I3LTRkNjcxNjllYzFkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxNFQxNDMxMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00Y2Q4NTc2NDQ1YWEwNjU4Y2VkYTcwNDk5NTMzZTVmNjRkOGZiN2FhMjNlMjExYjNmZDE0MDZhNDhlNTJlYTQ1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JMPtStEPDqsfznz9rxXMvmJQef3nNmkI-W6-_C-4Yuo",
+    "date": "2025-03-07",
+    "liveLink": "https://github.com/shogu7/soundboard/releases/tag/v1.0",
+    "repo": "https://www.youtube.com/watch?v=QOlec9dbkc8"
+  }
+]

@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './fetchproject.css';
 
 const githubToken = import.meta.env.VITE_GIT_TOKEN;
 
-export default function ProjectsPage() {
+// API Fetch GitHub Projects
+export default function ProjectsPage() { 
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -151,6 +153,7 @@ export default function ProjectsPage() {
     }).format(date);
   };
 
+  // === RENDER PAGE ===
   return (
     <div className="projects-page">
       <div className="network-bg"></div>
@@ -235,6 +238,7 @@ export default function ProjectsPage() {
                       Mis à jour: {formatDate(project.updatedAt)}
                     </div>
                   </div>
+                  // buttons GitHub, Demo, More Info
                   <div className="action-buttons">
                     <a
                       href={project.githubUrl}
@@ -254,13 +258,16 @@ export default function ProjectsPage() {
                         Démo Live
                       </a>
                     )}
+                    <Link to={`/projets/${project.title}`} className="btn btn-demo">
+                      Plus d'informations
+                    </Link>
                   </div>
                 </div>
               </div>
             ))}
           </div>
         )}
-
+        // if no results
         {!loading && !error && filteredProjects.length === 0 && (
           <div className="no-results">
             <p>Aucun projet ne correspond à vos filtres.</p>
