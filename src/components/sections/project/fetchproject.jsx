@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+ // import allowed from '../../../data/projectsData.json';
+ // Wanna import local data but it break the build because of???
 import './fetchproject.css';
+// import projectsData from "../../../data/projectsData.json";
 
 const githubToken = import.meta.env.VITE_GIT_TOKEN;
 
@@ -9,6 +12,7 @@ export default function ProjectsPage() {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
 
   const [filters, setFilters] = useState({
     searchTerm: '',
@@ -214,6 +218,7 @@ export default function ProjectsPage() {
         {!loading && !error && (
           <div className="projects-grid">
             {filteredProjects.map((project) => (
+              
               <div
                 key={project.id}
                 className={`project-card ${project.pinned ? 'pinned' : ''}`}>
@@ -248,9 +253,12 @@ export default function ProjectsPage() {
                     >
                       Voir sur GitHub
                     </a>
-                     <Link to={`/projets/${project.title}`} className="btn btn-info">
+                    {/* Change in comming, make the condition based on my json data and not the data fetch in the github api */}
+                    {typeof project.title === "string" && project.title.trim().length > 0 && (
+                     <Link to={`/projets/${encodeURIComponent(project.title)}`} className="btn btn-info">
                       Plus d'informations
                     </Link>
+                    )}
                     {project.demoUrl && (
                       <a
                         href={project.demoUrl}
