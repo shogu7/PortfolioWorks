@@ -8,13 +8,21 @@ function AlertDismissible() {
   const [mounted, setMounted] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setVisible(true), 2000);
-    return () => clearTimeout(timer);
+    // localStorage key to track if the user has seen the alert
+    const hasSeenAlert = localStorage.getItem('hasSeenAlert');
+
+    if (!hasSeenAlert) {
+      const timer = setTimeout(() => setVisible(true), 2000);
+      return () => clearTimeout(timer);
+    } else {
+      setMounted(false); // not mount if already seen
+    }
   }, []);
 
   const handleClose = () => {
     setVisible(false);
     setTimeout(() => setMounted(false), 300);
+    localStorage.setItem('hasSeenAlert', 'true');
   };
 
   if (!mounted) return null;

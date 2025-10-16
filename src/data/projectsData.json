@@ -42,7 +42,7 @@
     "fullDescription": "Ce projet est une application de Soundboard développée en Java. Elle permet aux utilisateurs d'ajouter et de jouer des fichiers audio (MP3/WAV) via un microphone virtuel (VB-CABLE). L'application utilise des bibliothèques Java pour la gestion audio ainsi qu'un alogirthme de conversion de bits pour assurer une qualité/compatibilité optimale. Le logiciel est empaqueté en un exécutable Windows pour une installation facile. (Le README contient des instructions d'installation et d'utilisation ainsi que beaucoup plus de détails techniques !)",
     "languages": ["Java"],
     "technologies": ["Maven", "Launch4j", "Voicemeeter", "VB-CABLE"],
-    "image": "https://private-user-images.githubusercontent.com/196045674/420342565-11838a73-408e-4ecf-a7b7-4d67169ec1de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjA0NTI1NzIsIm5iZiI6MTc2MDQ1MjI3MiwicGF0aCI6Ii8xOTYwNDU2NzQvNDIwMzQyNTY1LTExODM4YTczLTQwOGUtNGVjZi1hN2I3LTRkNjcxNjllYzFkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxNFQxNDMxMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00Y2Q4NTc2NDQ1YWEwNjU4Y2VkYTcwNDk5NTMzZTVmNjRkOGZiN2FhMjNlMjExYjNmZDE0MDZhNDhlNTJlYTQ1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JMPtStEPDqsfznz9rxXMvmJQef3nNmkI-W6-_C-4Yuo",
+    "image": "https://i.postimg.cc/Gh8bPPxK/Capture-d-e-cran-2025-10-15-a-11-48-06.png",
     "date": "2025-03-07",
     "liveLink": "https://github.com/shogu7/soundboard/releases/tag/v1.0",
     "repo": "https://github.com/shogu7/soundboard"

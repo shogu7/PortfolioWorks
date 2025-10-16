@@ -3,6 +3,7 @@ import shoguLogo from '../assets/icons/shogu_logo.png';
 import Projects from '../components/sections/accueil/projects'
 import ButtonCV from '../components/ui/Button/buttonCV'
 import Skill from "../components/sections/accueil/skill"
+import RedirectProject from '../components/sections/redirect/redirect_project';
 import '../styles/Accueil.css';
 import { useState, useEffect } from 'react';
 
@@ -38,6 +39,9 @@ export default function DynamicHeader() {
   </div>
   <div className="skill-space">
   <Skill />
+  <RedirectProject /> 
+  </div>
+  <div className="bottom-space">
   </div>
   </>
   );

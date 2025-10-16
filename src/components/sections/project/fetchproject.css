@@ -331,7 +331,10 @@
   transform: translateY(-4px);
   box-shadow: 0 10px 22px rgba(11,46,99,0.08);
 }
-.btn:active { transform: translateY(-2px) scale(0.998); }
+.btn:active { 
+  transform: translateY(-2px) scale(0.998);
+  /* change icm, the text when user click on button */
+}
 
 
 .btn:focus {
