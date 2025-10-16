@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Accueil from './Accueil.jsx';
-import Projets from './Projets.jsx';
-import Contact from './Contact.jsx';
-import ProjectsDetails from './projectsDetails/projectDetails.jsx';
+import Projets from '../projects/Projets.jsx';
+import Contact from '../other/Contact.jsx';
+import ProjectsDetails from '../projects/projectDetails.jsx';
 
 function Router() {
   return (

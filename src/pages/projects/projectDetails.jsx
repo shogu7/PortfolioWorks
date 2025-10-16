@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import projectsData from "../../data/projectsData.json";
-import "../../styles/projectDetails.css";
+import "../../styles/main/projectDetails.css";
 import BackButton from "../../components/ui/back_button/back_button";
 
 function ProjectsDetails() {

@@ -1,4 +1,4 @@
-import Router from './pages/router';
+import Router from './pages/main/router.jsx';
 import Warning from './components/ui/Warning/warning.jsx';
 import Navbar from './components/layout/Navbar/navbar.jsx';
 import Footer from './components/layout/Footer/footer.jsx'

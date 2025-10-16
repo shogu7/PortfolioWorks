@@ -1,5 +1,5 @@
 import React from 'react';
-import Fetchproject from '../components/sections/project/fetchproject'
+import Fetchproject from '../../components/sections/project/fetchproject'
 
 const Projets = () => {
   return (
