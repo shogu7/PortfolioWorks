@@ -18,7 +18,7 @@
     "fullDescription": "Voici mon premier projet en Java : une application de gestion de tâches (ToDo-List) fonctionnant dans le terminal. Elle permet aux utilisateurs d'ajouter et de supprimer des tâches ainsi que les gestionner (marquer terminée/pause/en cour). Les tâches sont sauvegardées dans un fichier texte pour une persistance des données entre les sessions. (Le README contient des détails sur les fonctionnalités, la structure du code et les améliorations possibles.)",
     "languages": ["Java"],
     "technologies": ["Java"],
-    "image": "/images/todolist-project.png",
+    "image": "https://imgs.search.brave.com/zvgC1po-3bn_-ymKjYWOGcWRsbaehfoIxxkrDmORDEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Z0Y2RuLm5l/dC9pbWFnZXMvdF9h/cHAtY292ZXItcyxm/X2F1dG8vcC85OGRm/MjhjZi0wNzQ5LTRk/NDEtODZkNy1jMWVi/OTM5MDJlZjkvMjQ0/NzU2NDcyOC90b2Rv/bGlzdC1zY3JlZW5z/aG90",
     "date": "",
     "liveLink": null,
     "repo": "https://github.com/shogu7/TodoList-Project"
@@ -30,7 +30,7 @@
     "fullDescription": "Un jeu de Snake développé en Java, utilisant le terminal comme interface utilisateur. Le joueur contrôle le serpent avec les touches ZQSD (ou flèches directionnelles) pour manger des pommes et grandir. Le jeu se termine si le serpent se mord la queue. Le code est structuré en plusieurs classes pour gérer le jeu, le serpent, les pommes et l'affichage. (Le README inclut des instructions de compilation et d'exécution.)",
     "languages": ["Java"],
     "technologies": ["Java"],
-    "image": "/images/snakegame-terminal-interface.png",
+    "image": "/http://imgs.search.brave.com/E885KfJ3HzTI_VmD7s_6Tv9l4l24EBrjNrXaTOI0Dh0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL2dvZ2Fr/b3JlbGkvc25ha2Uv/cmF3L21hc3Rlci9j/JTIwc25ha2UlMjBn/YW1lLnBuZz9yYXc9/dHJ1ZQ",
     "date": "",
     "liveLink": null,
     "repo": "https://github.com/shogu7/SnakeGame-Terminal-Interface"
@@ -42,7 +42,7 @@
     "fullDescription": "Ce projet est une application de Soundboard développée en Java. Elle permet aux utilisateurs d'ajouter et de jouer des fichiers audio (MP3/WAV) via un microphone virtuel (VB-CABLE). L'application utilise des bibliothèques Java pour la gestion audio ainsi qu'un alogirthme de conversion de bits pour assurer une qualité/compatibilité optimale. Le logiciel est empaqueté en un exécutable Windows pour une installation facile. (Le README contient des instructions d'installation et d'utilisation ainsi que beaucoup plus de détails techniques !)",
     "languages": ["Java"],
     "technologies": ["Maven", "Launch4j", "Voicemeeter", "VB-CABLE"],
-    "image": "https://i.postimg.cc/Gh8bPPxK/Capture-d-e-cran-2025-10-15-a-11-48-06.png",
+    "image": "https://i.postimg.cc/c43RFMPb/420342565-11838a73-408e-4ecf-a7b7-4d67169ec1de.png",
     "date": "2025-03-07",
     "liveLink": "https://github.com/shogu7/soundboard/releases/tag/v1.0",
     "repo": "https://github.com/shogu7/soundboard"

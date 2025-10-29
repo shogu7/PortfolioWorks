@@ -4,7 +4,7 @@ import "./buttonCV.css";
 
 const buttonCV = () => (
   <motion.a
-    href="https://drive.google.com/file/d/1lQMrCumAnEJAwL65bmKNVE2D_mjnfJ4J/view?usp=sharing" 
+    href="https://drive.google.com/file/d/1-51UWO2-nfReUW5ZNipYOwfnAAyB0i0A/view?usp=sharing"
     target="_blank"
     className="btn-primary"
     whileHover={{ scale: 1.05 }}
