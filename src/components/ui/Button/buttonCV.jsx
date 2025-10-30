@@ -1,7 +1,8 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./buttonCV.css";
 
-const buttonCV = () => (
+const ButtonCV = () => (
   <motion.a
     href="https://drive.google.com/file/d/1-51UWO2-nfReUW5ZNipYOwfnAAyB0i0A/view?usp=sharing"
     target="_blank"
@@ -13,4 +14,4 @@ const buttonCV = () => (
   </motion.a>
 );
 
-export default buttonCV;
+export default ButtonCV;
