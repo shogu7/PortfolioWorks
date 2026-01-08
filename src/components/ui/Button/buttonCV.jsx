@@ -1,9 +1,9 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 import "./buttonCV.css";
 
 const ButtonCV = () => (
-  <motion.a
+  <Motion.a
     href="https://drive.google.com/file/d/1v3PolCHJjS1wOum_T89ZuuwZ6qXIl1_U/view?usp=sharing"
     target="_blank"
     className="btn-primary"
@@ -11,7 +11,7 @@ const ButtonCV = () => (
     whileTap={{ scale: 0.95 }}
   >
     📄 Télécharger mon CV
-  </motion.a>
+  </Motion.a>
 );
 
 export default ButtonCV;

@@ -1,12 +1,22 @@
 [
-    {
+  {
     "slug": "PortfolioWorks",
     "title": "PortfolioWorks",
     "shortDescription": "Portfolio interactif présentant mes projets et compétences.",
     "fullDescription": "PortfolioWorks est un site conçu pour mettre en valeur mes projets personnels et mes compétences techniques. Il permet aux visiteurs, notamment aux recruteurs et entreprises, de découvrir mes projets, avec la possibilité d'explorer en détail chaque projet et d'en apprendre davantage sur mes compétences et mon expérience. C'est mon premier projet en utilisant react vite, j'ai aussi tester pour la première fois un déploiment sur netifly pour l'hébergement (auparavant j'utilisait un VPS, configuré par moi même pour mettre en lignes mes autres projets), j'ai opter mon netlify  car il est gratuit et facile à utiliser. Pour le design, j'ai utilisé des bibliothèques comme react-icons pour les icônes et framer-motion pour les animations. Le code est hébergé sur GitHub pour permettre à tous de voir mes projets !",
-    "languages": ["TypeScript", "Node"],
-    "technologies": ["React", "Vite", "Framer-Motion", "React-Router-Dom", "React-Icons", "Netlify"],
-    "image": "https://i.postimg.cc/P53WBDcs/Capture-d-e-cran-2025-10-14-a-15-44-37.png", 
+    "languages": [
+      "TypeScript",
+      "Node"
+    ],
+    "technologies": [
+      "React",
+      "Vite",
+      "Framer-Motion",
+      "React-Router-Dom",
+      "React-Icons",
+      "Netlify"
+    ],
+    "image": "https://i.postimg.cc/P53WBDcs/Capture-d-e-cran-2025-10-14-a-15-44-37.png",
     "date": "2023-11-10",
     "liveLink": "https://shoguportfolio.netlify.app/",
     "repo": "https://github.com/shogu7/PortfolioWorks"
@@ -16,8 +26,12 @@
     "title": "TodoList-Project",
     "shortDescription": "Mon premier projet en Java : ToDo-List console avec sauvegarde dans fichier.",
     "fullDescription": "Voici mon premier projet en Java : une application de gestion de tâches (ToDo-List) fonctionnant dans le terminal. Elle permet aux utilisateurs d'ajouter et de supprimer des tâches ainsi que les gestionner (marquer terminée/pause/en cour). Les tâches sont sauvegardées dans un fichier texte pour une persistance des données entre les sessions. (Le README contient des détails sur les fonctionnalités, la structure du code et les améliorations possibles.)",
-    "languages": ["Java"],
-    "technologies": ["Java"],
+    "languages": [
+      "Java"
+    ],
+    "technologies": [
+      "Java"
+    ],
     "image": "https://imgs.search.brave.com/zvgC1po-3bn_-ymKjYWOGcWRsbaehfoIxxkrDmORDEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Z0Y2RuLm5l/dC9pbWFnZXMvdF9h/cHAtY292ZXItcyxm/X2F1dG8vcC85OGRm/MjhjZi0wNzQ5LTRk/NDEtODZkNy1jMWVi/OTM5MDJlZjkvMjQ0/NzU2NDcyOC90b2Rv/bGlzdC1zY3JlZW5z/aG90",
     "date": "",
     "liveLink": null,
@@ -28,8 +42,12 @@
     "title": "SnakeGame-Terminal-Interface",
     "shortDescription": "SnakeGame en Java utilisant le terminal comme interface.",
     "fullDescription": "Un jeu de Snake développé en Java, utilisant le terminal comme interface utilisateur. Le joueur contrôle le serpent avec les touches ZQSD (ou flèches directionnelles) pour manger des pommes et grandir. Le jeu se termine si le serpent se mord la queue. Le code est structuré en plusieurs classes pour gérer le jeu, le serpent, les pommes et l'affichage. (Le README inclut des instructions de compilation et d'exécution.)",
-    "languages": ["Java"],
-    "technologies": ["Java"],
+    "languages": [
+      "Java"
+    ],
+    "technologies": [
+      "Java"
+    ],
     "image": "/http://imgs.search.brave.com/E885KfJ3HzTI_VmD7s_6Tv9l4l24EBrjNrXaTOI0Dh0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL2dvZ2Fr/b3JlbGkvc25ha2Uv/cmF3L21hc3Rlci9j/JTIwc25ha2UlMjBn/YW1lLnBuZz9yYXc9/dHJ1ZQ",
     "date": "",
     "liveLink": null,
@@ -40,20 +58,36 @@
     "title": "soundboard",
     "shortDescription": "Soundboard software in Java (ajoute et joue MP3/WAV via microphone virtuel).",
     "fullDescription": "Ce projet est une application de Soundboard développée en Java. Elle permet aux utilisateurs d'ajouter et de jouer des fichiers audio (MP3/WAV) via un microphone virtuel (VB-CABLE). L'application utilise des bibliothèques Java pour la gestion audio ainsi qu'un alogirthme de conversion de bits pour assurer une qualité/compatibilité optimale. Le logiciel est empaqueté en un exécutable Windows pour une installation facile. (Le README contient des instructions d'installation et d'utilisation ainsi que beaucoup plus de détails techniques !)",
-    "languages": ["Java"],
-    "technologies": ["Maven", "Launch4j", "Voicemeeter", "VB-CABLE"],
+    "languages": [
+      "Java"
+    ],
+    "technologies": [
+      "Maven",
+      "Launch4j",
+      "Voicemeeter",
+      "VB-CABLE"
+    ],
     "image": "https://i.postimg.cc/c43RFMPb/420342565-11838a73-408e-4ecf-a7b7-4d67169ec1de.png",
     "date": "2025-03-07",
     "liveLink": "https://github.com/shogu7/soundboard/releases/tag/v1.0",
     "repo": "https://github.com/shogu7/soundboard"
   },
-    {
+  {
     "slug": "IsekaiScan",
     "title": "IsekaiScan",
     "shortDescription": "Site Web de lecture de mangas en ligne.",
     "fullDescription": "IsekaiScan est un site web de lecture de mangas en ligne. Crée de manière dynamique, il permet aux utilisateurs de lire de manière efficace et agréable leurs mangas préférés. J'ai opter pour un mix de beaucoup de PHP et un peu de JavaScript pour le developpement du back-end de mon site. Pour le design je suis rester sur du HTML/CSS avec un peu de Bootstrap. Le site ainsi que la base de donnée est hébergé sur un serveur OVH (VPS) que j'ai configuré moi-même de zéro pour apprendre à gérer un serveur web. Le code est disponible sur GitHub pour permettre à tous de voir mes projets ! (PS: le site n'est plus en ligne car j'ai arrêter le projet, mais le code est toujours dispo ainsi qu'une vidéo de présentation du site.)",
-    "languages": ["JavaScript", "PHP", "SQL"],
-    "technologies": ["Bootscrap", "MySQL", "ubuntu", "Apache"],
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SQL"
+    ],
+    "technologies": [
+      "Bootscrap",
+      "MySQL",
+      "ubuntu",
+      "Apache"
+    ],
     "image": "https://i.postimg.cc/MqQpCdqB/Capture-d-e-cran-2025-10-16-a-08-23-35.png",
     "date": "2025-03-07",
     "liveLink": null,
@@ -64,7 +98,9 @@
     "title": "MasterMind Game",
     "shortDescription": "Jeu de MasterMind en JavaScrip.",
     "fullDescription": " Simple jeu de mastermind en JavaScript, crée dans le cadre d'une évalution scolaire. Le jeu consiste à deveniner une combinaison de couleurs en un nombre limité d'essaies. Le code est structuré en plusieurs fonctions pour gérer la logique du jeu, la génération de la combinaison secrète. Comme c'est un projet assez simple, je n'ai pas framgmenter le code en plusieurs fichiers, je suis rester assez basique. (Du a la nature du projet, il n'y a pas de README détaillé, mais le code est commenté pour expliquer les différentes parties.)",
-    "languages": ["JavaScript"],
+    "languages": [
+      "JavaScript"
+    ],
     "technologies": null,
     "image": "https://imgs.search.brave.com/RNzRpCSoxYgNjlm6zgyTN_E3cvfmtTeJqmhq2pG4EZ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dG95c3J1cy5jYS9k/dy9pbWFnZS92Mi9C/REZYX1BSRC9vbi9k/ZW1hbmR3YXJlLnN0/YXRpYy8tL1NpdGVz/LXRveXMtbWFzdGVy/LWNhdGFsb2cvZGVm/YXVsdC9kdzI1MDE2/OWUyL2ltYWdlcy9G/NDMzOTk5Rl83Lmpw/Zz9zdz03Njcmc2g9/NzY3JnNtPWZpdA",
     "date": "2025-10-14",
@@ -76,11 +112,111 @@
     "title": "Shuppatsu-",
     "shortDescription": "Un bot discord avec pour fonction principal de donner les sorties de chaque jour des mangas, animes, manwha.",
     "fullDescription": "Shuppatsu- est un bot discord conçu afin de fournir aux utilisateurs des informations sur les sorties quotidiennes de mangas, animes et manwha. Le bot utilise principalement l'API de AniList API pour récupérer les data des sorties. J'ai utilisé la bibliothèque Discord.js pour interagir avec l'API de Discord et gérer les commandes et les actions du bot. Le bot était hébergé sur railway.app pour les phases de test (actuellement indisponnible). Pour la data je suis passer par plusieurs API (AniList, Jikan, MyAnimeList) et plusieurs manière de les récupérer (GraphQL, web scraping de MangaCollect, REST API). Finalement la solution qui était le plus fiable et stable était d'utiliser L'API d'AniList pour fetch les data des sorties et les stocker sur des fichier JSON localement. (Sur une longue durée cette méthode n'est pas viable a part si la data est stocker dans une base de donnée.)",
-    "languages": ["JavaScript"],
-    "technologies": ["Discord.js", "Node", "Discord API", "AniList API", "Jikan API", "MyAnimeList API", "Railway.app"],
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "Discord.js",
+      "Node",
+      "Discord API",
+      "AniList API",
+      "Jikan API",
+      "MyAnimeList API",
+      "Railway.app"
+    ],
     "image": "https://i.postimg.cc/DFDhphG4/Capture-d-e-cran-2025-10-15-a-11-48-06.png",
     "date": "2025-10-14",
     "liveLink": "https://discord.com/invite/eVaDfyswKM",
     "repo": "https://github.com/shogu7/Shuppatsu-"
-  }
+  },
+  {
+    "slug": "mezame-frontend",
+    "title": "Mezame",
+    "shortDescription": "Site permettant aux lecteurs de manhwa de suivre leur progression de lecture et de partager leur collection.",
+    "fullDescription": "Mezame est une web app destinée aux lecteurs de manhwa pour organiser, suivre et partager leur lecture. L’application permet d’ajouter des manhwas à une bibliothèque personnelle, de suivre le chapitre en cours, d’attribuer un statut (Reading / Finished / Dropped / Plan to read / ect..), de noter les œuvres et de filtrer/trier la collection. Les profils publics affichent le pseudonyme, l’avatar, la biographie, le nombre de titres terminés/abandonnés/en cours, la liste des œuvres avec leur progression, statut et notes. Le projet est déployé et accessible en ligne (live demo). Des fonctionnalités en développement comprennent la contribution communautaire pour proposer de nouveaux titres, une extension navigateur pour détecter automatiquement la lecture et une application mobile afin de rendre le suivi des manhwa plus agréable.",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "React",
+      "Axios",
+      "React Router",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "JWT",
+      "bcrypt",
+      "Material-UI",
+      "Cloudinary",
+      "Framer-Motion"
+    ],
+    "image": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExejNhMjVtNTVndjBnMHZ6azZsZm5wZWh1ZW1nYXJ6ZWsweGxscjllaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HAz0qLbI48Ovb8upa8/giphy.gif",
+    "date": "2025-10-15",
+    "liveLink": "https://mezame.cloud-ip.cc/",
+    "repo": "https://github.com/shogu7/mezame-frontend"
+  },
+  {
+    "slug": "mezame-backend",
+    "title": "Mezame Backend",
+    "shortDescription": "Backend de Mezame gérant la base de données, l’authentification des utilisateurs et les actions administrateur.",
+    "fullDescription": "Le backend de Mezame assure l’ensemble de l’écosystème serveur. Il gère l’authentification des utilisateurs via JWT, la gestion des profils et des bibliothèques de manhwa, ainsi que les opérations CRUD (création, mise à jour, suppression) sur les données. Le système inclut un contrôle d’accès strict afin de restreindre certaines actions aux administrateurs. Le projet intègre également des scripts d’automatisation pour la maintenance de la base de données, notamment l’import massif de couvertures via Cloudinary, l’insertion ou la mise à jour automatique des données via des API extérieures, ainsi que des scripts utilitaires pour le nettoyage et la maintenance. Conçu comme un backend centralisé, il assure la logique serveur et les interactions avec la base de données pour l’application web, tout en étant pensé pour supporter les projets futurs liés à Mezame, tels que l’extension navigateur et l’application mobile.",
+    "languages": [
+      "JavaScript",
+      "Python"
+    ],
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Sequelize",
+      "JWT",
+      "bcrypt",
+      "Cloudinary",
+      "dotenv",
+      "fs"
+    ],
+    "image": "http://i.postimg.cc/fTMd4wJH/Capture-d-e-cran-2026-01-08-a-09-32-49.png",
+    "date": "2025-10-15",
+    "liveLink": "https://mezame.cloud-ip.cc/",
+    "repo": "https://github.com/shogu7/mezame-backend"
+  },
+  {
+  "slug": "react-todolist-basics",
+  "title": "React Todolist",
+  "shortDescription": "Une petite application Todolist réalisée en React dans le cadre d’un exercice pédagogique.",
+  "fullDescription": "Ce projet est une Todolist simple construite avec React. Il permet d’ajouter des tâches, de les marquer comme complétées ou non, et de les supprimer. Les données sont stockées dans localStorage pour cet exercice. Le code est structuré, commenté et clair afin d’expliquer chaque partie importante de l’application.",
+  "languages": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "technologies": [
+    "React",
+    "Vite"
+  ],
+  "image": "https://i.postimg.cc/j5sTxkPD/Capture-d-e-cran-2026-01-08-a-09-35-35.png",
+  "date": "2026-01-08",
+  "liveLink": "",
+  "repo": "https://github.com/shogu7/react-todolist-basics"
+},
+{
+  "slug": "ZobScarlet-bot",
+  "title": "ZobScarlet-bot",
+  "shortDescription": "Un bot Discord en JavaScript pour gérer les activités, communications et événements d’une guilde de façon automatisée.",
+  "fullDescription": "Ce projet est un bot Discord construit avec Node.js et discord.js, conçu pour automatiser et faciliter la gestion d’une guilde sur le jeu vidéo Summoners war Sky arena. Il propose un système de message d'accueil pour les nouveaux membres, des messages de rappel et d’inscription hebdomadaires, des annonces rapides pour le staff, ainsi que des notifications pour le début des combats de guilde. Le bot inclut aussi un système de rappels personnalisables et peut stocker les données en mémoire ou dans une base de données (MongoDB / SQLite / JSON). Les commandes sensibles sont restreintes aux rôles ayant des permissions administrateur.",
+  "languages": [
+    "JavaScript"
+  ],
+  "technologies": [
+    "Node.js",
+    "discord.js",
+    "cron",
+    "JSON"
+  ],
+  "image": "https://i.postimg.cc/Ssq9yqgc/Capture-d-e-cran-2026-01-08-a-09-42-36.png",
+  "date": "2026-01-08",
+  "liveLink": "",
+  "repo": "https://github.com/shogu7/ZobScarlet-bot"
+}
+
 ]
