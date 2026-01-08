@@ -181,42 +181,59 @@
     "repo": "https://github.com/shogu7/mezame-backend"
   },
   {
-  "slug": "react-todolist-basics",
-  "title": "React Todolist",
-  "shortDescription": "Une petite application Todolist réalisée en React dans le cadre d’un exercice pédagogique.",
-  "fullDescription": "Ce projet est une Todolist simple construite avec React. Il permet d’ajouter des tâches, de les marquer comme complétées ou non, et de les supprimer. Les données sont stockées dans localStorage pour cet exercice. Le code est structuré, commenté et clair afin d’expliquer chaque partie importante de l’application.",
-  "languages": [
-    "JavaScript",
-    "HTML",
-    "CSS"
-  ],
-  "technologies": [
-    "React",
-    "Vite"
-  ],
-  "image": "https://i.postimg.cc/j5sTxkPD/Capture-d-e-cran-2026-01-08-a-09-35-35.png",
-  "date": "2026-01-08",
-  "liveLink": "",
-  "repo": "https://github.com/shogu7/react-todolist-basics"
-},
-{
-  "slug": "ZobScarlet-bot",
-  "title": "ZobScarlet-bot",
-  "shortDescription": "Un bot Discord en JavaScript pour gérer les activités, communications et événements d’une guilde de façon automatisée.",
-  "fullDescription": "Ce projet est un bot Discord construit avec Node.js et discord.js, conçu pour automatiser et faciliter la gestion d’une guilde sur le jeu vidéo Summoners war Sky arena. Il propose un système de message d'accueil pour les nouveaux membres, des messages de rappel et d’inscription hebdomadaires, des annonces rapides pour le staff, ainsi que des notifications pour le début des combats de guilde. Le bot inclut aussi un système de rappels personnalisables et peut stocker les données en mémoire ou dans une base de données (MongoDB / SQLite / JSON). Les commandes sensibles sont restreintes aux rôles ayant des permissions administrateur.",
-  "languages": [
-    "JavaScript"
-  ],
-  "technologies": [
-    "Node.js",
-    "discord.js",
-    "cron",
-    "JSON"
-  ],
-  "image": "https://i.postimg.cc/Ssq9yqgc/Capture-d-e-cran-2026-01-08-a-09-42-36.png",
-  "date": "2026-01-08",
-  "liveLink": "",
-  "repo": "https://github.com/shogu7/ZobScarlet-bot"
-}
-
+    "slug": "react-todolist-basics",
+    "title": "React Todolist",
+    "shortDescription": "Une petite application Todolist réalisée en React dans le cadre d’un exercice pédagogique.",
+    "fullDescription": "Ce projet est une Todolist simple construite avec React. Il permet d’ajouter des tâches, de les marquer comme complétées ou non, et de les supprimer. Les données sont stockées dans localStorage pour cet exercice. Le code est structuré, commenté et clair afin d’expliquer chaque partie importante de l’application.",
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "technologies": [
+      "React",
+      "Vite"
+    ],
+    "image": "https://i.postimg.cc/j5sTxkPD/Capture-d-e-cran-2026-01-08-a-09-35-35.png",
+    "date": "2026-01-08",
+    "liveLink": "",
+    "repo": "https://github.com/shogu7/react-todolist-basics"
+  },
+  {
+    "slug": "ZobScarlet-bot",
+    "title": "ZobScarlet-bot",
+    "shortDescription": "Un bot Discord en JavaScript pour gérer les activités, communications et événements d’une guilde de façon automatisée.",
+    "fullDescription": "Ce projet est un bot Discord construit avec Node.js et discord.js, conçu pour automatiser et faciliter la gestion d’une guilde sur le jeu vidéo Summoners war Sky arena. Il propose un système de message d'accueil pour les nouveaux membres, des messages de rappel et d’inscription hebdomadaires, des annonces rapides pour le staff, ainsi que des notifications pour le début des combats de guilde. Le bot inclut aussi un système de rappels personnalisables et peut stocker les données en mémoire ou dans une base de données (MongoDB / SQLite / JSON). Les commandes sensibles sont restreintes aux rôles ayant des permissions administrateur.",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "Node.js",
+      "discord.js",
+      "cron",
+      "JSON"
+    ],
+    "image": "https://i.postimg.cc/Ssq9yqgc/Capture-d-e-cran-2026-01-08-a-09-42-36.png",
+    "date": "2026-01-08",
+    "liveLink": "",
+    "repo": "https://github.com/shogu7/ZobScarlet-bot"
+  },
+  {
+    "slug": "mezame-extension",
+    "title": "Mezame — Extension",
+    "shortDescription": "Extension navigateur pour Mezame permettant de suivre la progression d'un manhwa. Actuellement en développement.",
+    "fullDescription": "Une extension navigateur pour Mezame qui détecte le manhwa que vous êtes en train de lire, cherche une correspondance dans la base de données, et met à jour votre progression ou crée une nouvelle entrée avec les informations récupérées. L’extension sauvegarde le statut de la lecture. Ce projet est en cours de développement, avec de nouvelles fonctionnalités et sites supportés à venir.",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "Chrome Extensions MV3",
+      "JavaScript",
+      "API integration"
+    ],
+    "image": "https://i.postimg.cc/FRnyr88g/Capture-d-e-cran-2026-01-08-a-10-41-12.png",
+    "date": "2026-01-08",
+    "liveLink": "",
+    "repo": ""
+  }
 ]
